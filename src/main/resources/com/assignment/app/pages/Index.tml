@@ -1,0 +1,17 @@
+<html t:type="layout" title="app Index"
+      t:sidebarTitle="Framework Version"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+
+<div class="container">
+    <div class="login">
+        <h1>Login</h1>
+        <t:form t:id="loginForm" class="loginForm">
+            <t:errors/>
+            <p>UserName &nbsp;&nbsp;<input t:type="TextField" t:id="userName" placeholder="Enter email Id" class="inputFields" /></p>
+            <p>Password &nbsp;&nbsp;&nbsp;<input t:type="PasswordField" t:id="password" placeholder="Enter password" class="inputFields" /></p>
+            <p class="submit"><input type="submit" value="Login" /></p>
+        </t:form>
+    </div>
+</div>
+</html>

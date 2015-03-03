@@ -1,0 +1,52 @@
+<html t:type="layout" title="Contact com.assignment"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+    <div id="weather">
+        <p>
+            <t:pagelink page="Home" class="button" >Go to Home page</t:pagelink>
+        </p>
+    </div>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Minimum Temperature</th>
+            <th>Maximum Temperature</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>10</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>12</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>14</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>16</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>18</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>20</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>22</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+</html>
